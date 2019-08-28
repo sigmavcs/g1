@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "37f2763e-3bde-45ec-bad7-bbcbbdcf7a7d": {
+        "id": "37f2763e-3bde-45ec-bad7-bbcbbdcf7a7d",
+        "parent": null,
+        "name": "g1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e6c29bb6-81f6-4b47-888d-33d3657ae82e"
+        ],
+        "isRemovable": false,
+        "filePath": "g1"
+      },
+      "e6c29bb6-81f6-4b47-888d-33d3657ae82e": {
+        "id": "e6c29bb6-81f6-4b47-888d-33d3657ae82e",
+        "parent": "37f2763e-3bde-45ec-bad7-bbcbbdcf7a7d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "g1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "37f2763e-3bde-45ec-bad7-bbcbbdcf7a7d",
+    "openFiles": [
+      "e6c29bb6-81f6-4b47-888d-33d3657ae82e"
+    ],
+    "currentFileId": "e6c29bb6-81f6-4b47-888d-33d3657ae82e",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "g1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "g1",
+      "url": "https://github.com/sigmavcs/g1"
+    }
+  }
+}
